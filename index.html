@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Банка Любви</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Твоя Банка Любви</h1>
+        <div class="jar-container">
+            <div class="jar" id="loveJar">
+                <div class="jar-content">
+                    <img src="heart.png" alt="Сердце" class="heart-icon">
+                </div>
+            </div>
+        </div>
+        <button id="openNoteBtn">Открыть записку</button>
+    </div>
+
+    <div class="note-modal" id="noteModal">
+        <div class="note-content">
+            <p id="noteText"></p>
+            <button class="close-btn" id="closeNoteBtn">Закрыть</button>
+        </div>
+    </div>
+
+    <img src="flower.png" alt="Flower" class="background-flower">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
